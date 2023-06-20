@@ -46,14 +46,21 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 235%;
-  left: 0%;
+  top: 225%;
+  left: -355%;
   background-color: rgba(250,250,250,0.9);
-  padding: 100px;
+  padding: 50px;
+  width: 1300px;
+  text-align: center;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+.nav:hover {
+  box-shadow: none
 }
 
 @keyframes App-logo-spin {

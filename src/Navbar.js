@@ -13,7 +13,12 @@ export default function Navbar() {
                     <li className = 'dropdown'>
                         <a href="/">About us</a>
                         <div className='dropdown-content'>
-                            <a href="/">About GA</a>
+                            <ul>
+                                <li><a href="/">About GA</a></li>
+                                <li><a href="/">Why GA</a></li>
+                                <li><a href="/">Our Mission</a></li>
+                                <li><a href="/">Core Value</a></li>
+                            </ul>
                         </div>
                     </li>
                     <li>
