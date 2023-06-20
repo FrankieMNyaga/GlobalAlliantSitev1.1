@@ -28,7 +28,9 @@
   color: #61dafb;
 }
 
-
+.dropdown a{
+  padding: 60px 0px;
+}
 
 .nav {
   background-color: rgba(250, 250, 250, 0.9); /* Adjust the alpha value to make it slightly darker */
@@ -46,7 +48,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 225%;
+  top: 200%;
   left: -355%;
   background-color: rgba(250,250,250,0.9);
   padding: 50px;
@@ -58,6 +60,9 @@
   display: block;
 }
 
+.dropdown:hover .navbar:hover, .dropdown-content, .dropdown-content:hover {
+  display: none;
+}
 
 .nav:hover {
   box-shadow: none
